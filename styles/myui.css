@@ -1,0 +1,26 @@
+.bkimg {
+  background-image: url(../duncan-kidd.jpg);
+  background-size: 100%;
+}
+
+a.changecol {
+  color: #000000 !important;
+}
+
+.join {
+  padding-top: 60%;
+  padding-bottom: 20%;
+}
+
+/* adjustments for mobile device */
+@media screen and (max-width: 768px) {
+  /* modifying the UIkit framework CSS */
+  .uk-grid {
+    flex-wrap: wrap-reverse;
+  }
+
+  h1 {
+    /* adjust fontsize to be 6% of screen width (so it fits on one line) */
+    font-size: 6vw;
+  }
+}
